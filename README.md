@@ -1,8 +1,8 @@
 # Data Variable for Google Tag Manager Web Container
 
-## How to use Data Variable
-
-TBD
+[Data Variable](https://tagmanager.google.com/gallery/#/owners/stape-io/templates/data-variable) for the Google Tag Manager web container is designed to extract data stored by Data Tag. 
+You can use [Data Tag](https://tagmanager.google.com/gallery/#/owners/stape-io/templates/data-tag) to store data in the local storage, in cookies, or everywhere. 
+To extract stored data, use [Data Variable](https://tagmanager.google.com/gallery/#/owners/stape-io/templates/data-variable).
 
 ## Open Source
 
