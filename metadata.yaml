@@ -1,4 +1,6 @@
 homepage: "https://stape.io/"
 versions:
+  - sha: c043fbcb2f7e94907e2b0210d18c2292fdc8a480
+    changeNotes: Update to support Data tag v3.
   - sha: 96d13c5e38788b3dffae78c4e8a6ad1ae5b7320e
     changeNotes: Initial release.
