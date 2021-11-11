@@ -56,6 +56,17 @@ if (localStorage) {
   }
 }
 
+const stapeCookieValue = getCookieValues('stape');
+
+if (stapeCookieValue) {
+  const stapeParsedCookie = JSON.parse(stapeCookieValue[0]);
+
+  if (stapeParsedCookie[data.name]) {
+    return stapeParsedCookie[data.name];
+  }
+}
+
+
 const cookieValue = getCookieValues('stape_'+data.name);
 
 if (cookieValue) {
