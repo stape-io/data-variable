@@ -58,7 +58,7 @@ if (localStorage) {
 
 const stapeCookieValue = getCookieValues('stape');
 
-if (stapeCookieValue) {
+if (stapeCookieValue && stapeCookieValue[0]) {
   const stapeParsedCookie = JSON.parse(stapeCookieValue[0]);
 
   if (stapeParsedCookie[data.name]) {
@@ -69,7 +69,7 @@ if (stapeCookieValue) {
 
 const cookieValue = getCookieValues('stape_'+data.name);
 
-if (cookieValue) {
+if (cookieValue && cookieValue[0]) {
   return cookieValue[0];
 }
 
