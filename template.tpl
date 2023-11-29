@@ -67,13 +67,7 @@ if (stapeCookieValue && stapeCookieValue[0]) {
 }
 
 
-const cookieValue = getCookieValues('stape_'+data.name);
-
-if (cookieValue && cookieValue[0]) {
-  return cookieValue[0];
-}
-
-return '';
+return getCookieValues('stape_'+data.name)[0];
 
 
 ___WEB_PERMISSIONS___

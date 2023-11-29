@@ -1,5 +1,7 @@
 homepage: "https://stape.io/"
 versions:
+  - sha: d65e569d72c4f71124f891b99f46e4e25c8237b7
+    changeNotes: Return undefined instead of empty string.
   - sha: 4263f6b2a85eda7e7220329da8f0a03e888beb5f
     changeNotes: Update cookies checking.
   - sha: c043fbcb2f7e94907e2b0210d18c2292fdc8a480
